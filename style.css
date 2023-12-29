@@ -18,13 +18,19 @@ body{
     margin-left: 1em;
 }
 
+.nombre{
+    margin-left: 10em;
+}
+
+
+
 main{
     flex: 1;      /*Poner footer abajo. Main esté el 1º antes de footer*/
 }
 
-/* Título de formación */
+/* Título de botones */
 .title{
-    max-width: 8rem;
+    max-width: 10rem;
     text-align: center;
 }
 
@@ -67,8 +73,16 @@ main{
     text-shadow: 2px 1px #004c72;
 }
 
-.card-text{
+.color1{
     color: rgb(96, 174, 65);
+}
+
+.color2{
+    color: rgb(0, 247, 255);
+}
+
+.color3{
+    color: rgb(255, 97, 97);
 }
 
 .accordion-header{
