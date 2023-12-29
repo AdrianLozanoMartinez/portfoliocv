@@ -4,6 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;      /*Que tenga el 100% de la ventana*/
+    margin: 0;
 }
 
 #foto{
@@ -21,9 +22,64 @@ main{
     flex: 1;      /*Poner footer abajo. Main esté el 1º antes de footer*/
 }
 
+/* Título de formación */
+.title{
+    max-width: 8rem;
+    text-align: center;
+}
+
+/* Cuadros de formación */
+.narrow{
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 14px 14px 20px 0 rgba(0, 139, 152, 0.2);
+}
+
+.narrow:hover{
+    box-shadow: 14px 14px 20px 0 rgba(136, 255, 130, 0.2);
+}
+
+.narrow2{
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 14px 14px 20px 0 rgba(0, 141, 241, 0.825);
+}
+
+.narrow2:hover{
+    box-shadow: 14px 14px 20px 0 rgba(67, 177, 255, 0.923);
+}
+
+.card-title, .card-header{
+    font-weight: bold;
+}
+
+.card-header{
+    text-shadow: 2px 1px #004c72;
+}
+
+.card-text{
+    color: rgb(128, 180, 108);
+}
+
+.accordion-header{
+    width: 30%;
+}
+
+.card{
+    margin-bottom: 50vh;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer {
     color: white;
     width: 100%;
     height: 20px;
     bottom: 0;    /*Poner footer abajo*/
   }
+
+  

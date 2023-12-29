@@ -7,9 +7,9 @@
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-dark">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <img src="AdrianLozano_Martinez.jpeg" alt="Adrián Lozano Martínez" id="foto">
           <p class="navbar-brand">Adrián Lozano Martínez</p>
@@ -19,10 +19,15 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Formaciones</a>
+                <!-- <a class="nav-link" href="#formacion">Formaciones</a> #formacion -> para ir al enlace de abajo id="formacion" -->
+                <a data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <div class="nav-link" id="formacion">Formación</div>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Experiencias</a>
+                <a data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  <div class="nav-link" id="experiencia">Experiencia</div>
+                </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Conocimientos</a>
@@ -31,16 +36,180 @@
                 <a class="nav-link" href="#">Contacto</a>
               </li>
             </ul>
+            <a class="navbar-brand" href="Adrian_Lozano_Martinez.pdf" download="Adrian_Lozano_Martinez.pdf" target="_blank">Download CV</a>
           </div>
         </div>
       </nav>
     </header>
     <main>
-        <a href="Adrian_Lozano_Martinez.pdf" download="Adrian_Lozano_Martinez.pdf" target="_blank">Download CV</a>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item bg-dark border-dark">
+            <section class="mt-5 col-12 d-flex">
+              <button class="accordion-button collapsed bg-dark border-dark text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <div class="card text-bg-success mb-3 mx-3 title">
+                      <div class="card-header" id="formacion">Formación</div>
+                  </div>
+              </button>
+              <button class="accordion-button collapsed bg-dark border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <div class="card text-bg-success mb-3 mx-3 title">
+                      <div class="card-header" id="experiencia">Experiencia</div>
+                  </div>
+              </button>
+              <button class="accordion-button collapsed bg-dark border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <div class="card text-bg-success mb-3 mx-3 title">
+                      <div class="card-header" id="XX">XXXXX</div>
+                  </div>
+              </button>
+          </section>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row">
+                  <article class="col-md-4">
+                    <div class="card bg-dark border-success text-white mb-3 narrow">
+                      <h4 class="card-header border-success">Técnico superior de desarrollo de aplicaciones web</h4>
+                      <div class="card-body">
+                        <p class="card-title">I.E.S. Salduba</p>
+                        <p class="card-title">2021 - 2024</p>
+                        <p class="card-text">C#, PHP, PYTHON, JAVASCRIPT, CSS, GITHUB, MYSQL, XML, JSON, HTML, XPATH, AJAX, JQUERY, CANVA, SVG</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-4">
+                    <div class="card bg-dark border-success text-white mb-3 narrow">
+                      <h4 class="card-header border-success">Título Frontend developer Angular junior</h4>
+                      <div class="card-body">
+                        <p class="card-title">Besoftware</p>
+                        <p class="card-title">Marzo - Abril 2020</p>
+                        <p class="card-text">HTML, CSS, JAVASCRIPT, SQL, ANGULAR, BOOTSTRAP</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-4">
+                    <div class="card bg-dark border-success text-white mb-3 narrow">
+                      <h4 class="card-header border-success">Técnico superior de administrador de sistemas informáticos</h4>
+                      <div class="card-body">
+                        <p class="card-title">I.E.S. Guadalpin</p>
+                        <p class="card-title">2006 - 2008</p>
+                        <p class="card-text">PROGRAMACIÓN, REDES, SISTEMAS, OFIMÁTICA</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark border-dark">
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row">
+                  <article class="col-md-4">
+                    <div class="card bg-dark border-primary text-white mb-3 narrow2">
+                      <h4 class="card-header border-primary">Administrador de Aula mentor</h4>
+                      <div class="card-body">
+                        <p class="card-title">Ayuntamiento de Istán</p>
+                        <p class="card-title">2022 - 2023</p>
+                        <p class="card-text">Técnico informático y administrador de cursos y alumnos</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-4">
+                    <div class="card bg-dark border-primary text-white mb-3 narrow2">
+                      <h4 class="card-header border-primary">Vendedor de productos técnicos</h4>
+                      <div class="card-body">
+                        <p class="card-title">Fnac</p>
+                        <p class="card-title">2010-2022</p>
+                        <p class="card-text">Ventas y reposición de productos técnicos, técnico informático, gestión de almacen y devolución</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-4">
+                    <div class="card bg-dark border-primary text-white mb-3 narrow2">
+                      <h4 class="card-header border-primary">Técnico informático de Guadalinfo</h4>
+                      <div class="card-body">
+                        <p class="card-title">Ayuntamiento de Istán</p>
+                        <p class="card-title">2019-2020</p>
+                        <p class="card-text">Técnico informático y docencia</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-4 mt-5">
+                    <div class="card bg-dark border-primary text-white mb-3 narrow2">
+                      <h4 class="card-header border-primary">Técnico y profesor informático</h4>
+                      <div class="card-body">
+                        <p class="card-title">C.P. Rafael Fernández-Mayoralas</p>
+                        <p class="card-title">2005-2008</p>
+                        <p class="card-text">Técnico informático y docencia</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-4 mt-5">
+                    <div class="card bg-dark border-primary text-white mb-3 narrow2">
+                      <h4 class="card-header border-primary">Técnico informático</h4>
+                      <div class="card-body">
+                        <p class="card-title">CM Locutorio</p>
+                        <p class="card-title">2007-2008</p>
+                        <p class="card-text">Técnico informático</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-4 mt-5">
+                    <div class="card bg-dark border-primary text-white mb-3 narrow2">
+                      <h4 class="card-header border-primary">Técnico informático</h4>
+                      <div class="card-body">
+                        <p class="card-title">Beep</p>
+                        <p class="card-title">Abril - Junio 2007</p>
+                        <p class="card-text">Prácticas de Técnico informático</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark border-dark">
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row">
+                  <article class="col-md-4">
+                    <div class="card bg-dark border-danger text-white mb-3 narrow">
+                      <h4 class="card-header border-danger">Técnico superior de desarrollo de aplicaciones web</h4>
+                      <div class="card-body">
+                        <p class="card-title">I.E.S. Salduba</p>
+                        <p class="card-title">2021 - 2024</p>
+                        <p class="card-text">C#, PHP, PYTHON, JAVASCRIPT, CSS, GITHUB, MYSQL, XML, JSON, HTML, XPATH, AJAX, JQUERY, CANVA, SVG</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-4">
+                    <div class="card bg-dark border-danger text-white mb-3 narrow">
+                      <h4 class="card-header border-danger">Título Frontend developer Angular junior</h4>
+                      <div class="card-body">
+                        <p class="card-title">Besoftware</p>
+                        <p class="card-title">Marzo - Abril 2020</p>
+                        <p class="card-text">HTML, CSS, JAVASCRIPT, SQL, ANGULAR, BOOTSTRAP</p>
+                      </div>
+                    </div>
+                  </article>
+                  <article class="col-md-4">
+                    <div class="card bg-dark border-danger text-white mb-3 narrow">
+                      <h4 class="card-header border-danger">Técnico superior de administrador de sistemas informáticos</h4>
+                      <div class="card-body">
+                        <p class="card-title">I.E.S. Guadalpin</p>
+                        <p class="card-title">2006 - 2008</p>
+                        <p class="card-text">PROGRAMACIÓN, REDES, SISTEMAS, OFIMÁTICA</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer bg-dark text-center">
         <div class="container">
-            <pre><small>&copy; Adrián Lozano</small></pre>
+            <pre><small>&copy; Adrián Lozano Martínez</small></pre>
         </div>
     </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
