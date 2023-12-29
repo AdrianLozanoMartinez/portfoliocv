@@ -32,11 +32,11 @@ main{
 .narrow{
     margin-left: 5%;
     margin-right: 5%;
-    box-shadow: 14px 14px 20px 0 rgba(0, 139, 152, 0.2);
+    box-shadow: 14px 14px 20px 0 rgba(69, 168, 88, 0.907);
 }
 
 .narrow:hover{
-    box-shadow: 14px 14px 20px 0 rgba(136, 255, 130, 0.2);
+    box-shadow: 14px 14px 20px 0 rgba(13, 255, 0, 0.94);
 }
 
 .narrow2{
@@ -46,7 +46,17 @@ main{
 }
 
 .narrow2:hover{
-    box-shadow: 14px 14px 20px 0 rgba(67, 177, 255, 0.923);
+    box-shadow: 14px 14px 20px 0 rgba(84, 238, 238, 0.923);
+}
+
+.narrow3{
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 14px 14px 20px 0 rgba(255, 113, 113, 0.825);
+}
+
+.narrow3:hover{
+    box-shadow: 14px 14px 20px 0 rgba(255, 4, 0, 0.923);
 }
 
 .card-title, .card-header{
@@ -58,7 +68,7 @@ main{
 }
 
 .card-text{
-    color: rgb(128, 180, 108);
+    color: rgb(96, 174, 65);
 }
 
 .accordion-header{
