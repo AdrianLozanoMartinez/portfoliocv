@@ -19,7 +19,7 @@ body{
 }
 
 .nombre{
-    margin-left: 10em;
+    margin-left: 1em;
 }
 
 
@@ -111,8 +111,17 @@ main{
     padding: 1vh;
 }
 
+.otherSize{
+    width: 10vh;
+}
+
 .cuadroIcono{
     min-height: 65vh; /*Para que siempre estén todos los iconos dentro del cuadro*/
+}
+
+.principal{
+    height: 1vh;
+    background-color: red;
 }
 
 .footer {
@@ -121,9 +130,3 @@ main{
     height: 20px;
     bottom: 0;    /*Poner footer abajo*/
   }
-
-/* @media only screen and (max-width: 767px){
-    .letras{
-        visibility: hidden;
-    }
-} */
