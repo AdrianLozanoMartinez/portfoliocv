@@ -124,9 +124,82 @@ main{
     background-color: red;
 }
 
+.enlace{
+    text-decoration: none;
+}
+
+.proyectos{
+    box-shadow: 14px 14px 20px 0 rgba(172, 172, 172, 0.923);
+}
+
+.universo:hover{
+    box-shadow: 14px 14px 20px 0 rgba(107, 247, 0, 0.923);
+}
+
+.peluqueria:hover{
+    box-shadow: 14px 14px 20px 0 rgba(0, 144, 247, 0.923);
+}
+
+.manual:hover{
+    box-shadow: 14px 14px 20px 0 rgba(146, 0, 220, 0.923);
+}
+
+.pokedex:hover{
+    box-shadow: 14px 14px 20px 0 rgba(255, 0, 0, 0.923);
+}
+
+.ocean:hover{
+    box-shadow: 14px 14px 20px 0 rgba(0, 242, 255, 0.923);
+}
+
+.calculadora:hover{
+    box-shadow: 14px 14px 20px 0 rgba(255, 222, 5, 0.923);
+}
+
+.nba:hover{
+    box-shadow: 14px 14px 20px 0 rgba(255, 105, 5, 0.923);
+}
+
+.mus:hover{
+    box-shadow: 14px 14px 20px 0 rgba(255, 5, 205, 0.923);
+}
+
+.sinmargin{
+    margin-top: -30vh !important;
+}
+
+.ahorcado{
+    height: 21vh;
+}
+
 .footer {
     color: white;
     width: 100%;
     height: 20px;
     bottom: 0;    /*Poner footer abajo*/
+    display: grid;
+    grid-template-areas: "tlf linkedin portfolio"
+                         "email github portfolio";
   }
+
+  /* FALTA PONER ICONOS */
+#tlf {
+    grid-area: tlf;
+}
+
+#linkedin{
+    grid-area:linkedin;
+} 
+
+#portfolio{
+    grid-area:portfolio;
+}
+
+#email{
+    grid-area:email;
+} 
+#github{
+    grid-area:github;
+    
+} 
+
