@@ -180,6 +180,10 @@ main{
     box-shadow: 14px 14px 20px 0 rgba(212, 118, 174, 0.923);
 }
 
+.bartolo:hover{
+    box-shadow: 14px 14px 20px 0 rgba(247, 252, 140, 0.923);
+}
+
 #usuario, #contrasena{
     color: aquamarine;
 }
