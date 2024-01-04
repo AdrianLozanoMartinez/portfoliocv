@@ -180,6 +180,10 @@ main{
     box-shadow: 14px 14px 20px 0 rgba(212, 118, 174, 0.923);
 }
 
+#usuario, #contrasena{
+    color: aquamarine;
+}
+
 .sinmargin{
     margin-top: -30vh !important;
 }
@@ -219,9 +223,14 @@ main{
     
 } 
 
-.pedidos{
+.card-footer{
     height: 20vh;
 }
+
+.pedidos{
+    height: 50vh;
+}
+
 
 @media only screen and (max-width : 761px) {
     .card-footer{
