@@ -176,6 +176,10 @@ main{
     box-shadow: 14px 14px 20px 0 rgba(70, 225, 197, 0.923);
 }
 
+.pedidos:hover{
+    box-shadow: 14px 14px 20px 0 rgba(212, 118, 174, 0.923);
+}
+
 .sinmargin{
     margin-top: -30vh !important;
 }
@@ -214,6 +218,10 @@ main{
     grid-area:github;
     
 } 
+
+.pedidos{
+    height: 20vh;
+}
 
 @media only screen and (max-width : 761px) {
     .card-footer{
