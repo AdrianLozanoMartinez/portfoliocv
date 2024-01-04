@@ -132,15 +132,19 @@ main{
     box-shadow: 14px 14px 20px 0 rgba(172, 172, 172, 0.923);
 }
 
-.universo:hover{
+.verde:hover{
     box-shadow: 14px 14px 20px 0 rgba(107, 247, 0, 0.923);
 }
 
-.peluqueria:hover{
+.verdeOscuro:hover{
+    box-shadow: 14px 14px 20px 0 rgba(71, 163, 0, 0.923);
+}
+
+.azulOscuro:hover{
     box-shadow: 14px 14px 20px 0 rgba(0, 144, 247, 0.923);
 }
 
-.manual:hover{
+.lila:hover{
     box-shadow: 14px 14px 20px 0 rgba(146, 0, 220, 0.923);
 }
 
