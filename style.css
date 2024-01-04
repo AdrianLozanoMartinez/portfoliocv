@@ -182,7 +182,6 @@ main{
                          "email github portfolio";
   }
 
-  /* FALTA PONER ICONOS */
 #tlf {
     grid-area: tlf;
 }
@@ -198,8 +197,15 @@ main{
 #email{
     grid-area:email;
 } 
+
 #github{
     grid-area:github;
     
 } 
+
+@media only screen and (max-width : 761px) {
+    .card-footer{
+        height: 30vh;
+    }
+}
 
