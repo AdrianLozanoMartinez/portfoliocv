@@ -168,6 +168,14 @@ main{
     box-shadow: 14px 14px 20px 0 rgba(255, 5, 205, 0.923);
 }
 
+.plus:hover{
+    box-shadow: 14px 14px 20px 0 rgba(186, 134, 71, 0.923);
+}
+
+.pro:hover{
+    box-shadow: 14px 14px 20px 0 rgba(70, 225, 197, 0.923);
+}
+
 .sinmargin{
     margin-top: -30vh !important;
 }
