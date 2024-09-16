@@ -90,7 +90,7 @@ main{
 }
 
 .card{
-    margin-bottom: 50vh;
+    margin-bottom: 100vh;
 }
 
 .center{
@@ -192,6 +192,10 @@ main{
     margin-top: -30vh !important;
 }
 
+.sinmargin2{
+    margin-top: 0 !important;
+}
+
 .ahorcado{
     height: 21vh;
 }
@@ -227,10 +231,6 @@ main{
     
 } 
 
-.card-footer{
-    height: 20vh;
-}
-
 .pedidos{
     height: 60vh;
 }
@@ -246,8 +246,9 @@ main{
 
 
 @media only screen and (max-width : 761px) {
-    .card-footer{
-        height: 30vh;
+
+    .sinmargin2{
+        margin-top: -30vh !important;
     }
 }
 
